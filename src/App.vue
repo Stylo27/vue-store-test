@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app>
     <Header/>
     <v-content>
       <NewsList />
@@ -16,11 +16,6 @@ export default {
   components: {
       Header,
       NewsList
-  },
-  data () {
-    return {
-      //
-    }
   }
 }
 </script>
